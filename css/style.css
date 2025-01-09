@@ -46,9 +46,6 @@ img{
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
-.banner img{
-    width: 650px;
-}
 
 
 
@@ -149,7 +146,9 @@ p.banner-description {
 .cv{
     width: 115px;
 }
-
+.banner-profile-pic{
+    width: 650px !important;
+}
 
 /**about section **/
 
