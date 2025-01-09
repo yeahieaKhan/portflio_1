@@ -46,7 +46,9 @@ img{
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
-
+.banner img{
+    width: 650px;
+}
 
 
 
