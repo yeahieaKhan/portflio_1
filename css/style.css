@@ -205,12 +205,14 @@ p.itemsdes {
 }
 
 /**skills items**/
-
-
-
-.aboutTitle{
-    text-align: center;
+.hide{
+    display: none;
 }
+
+
+/* .aboutTitle{
+    text-align: center;
+} */
 
 .skillItems {
     display: flex;
@@ -221,8 +223,8 @@ p.itemsdes {
 
 .skill {
     width: 205px;
-    margin: auto;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin: auto;
 }
 
 .skill h2 {
@@ -268,6 +270,8 @@ p.itemsdes {
 hr {
     margin-bottom: 23px;
 }
+
+
 
 .footerItems {
     display: flex;

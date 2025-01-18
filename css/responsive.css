@@ -1,0 +1,79 @@
+@media screen and (min-width:572px) and (max-width:991px){
+    .skillItems{
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width:576px){
+    .container{
+        width: auto;
+    }
+    .skillItems{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .skill{
+        width: 90%;
+        height: auto;
+    }
+    .aboutTitle{
+        width: 400px;
+        margin-left:10px ;
+        padding: 10px;
+    }
+    .skill h2{
+        width: 560px;
+        height: auto;
+    }
+    .skill p{
+        height: auto;
+        line-height: 30px;
+        width: 400px;
+    }
+    .resumeContainer{
+        flex-direction: column;
+        width: 550px !important ;
+        padding: 20px;
+    }
+    .resumeTitle h3 {
+        font-size: 18px;
+    }
+    .resumeItems h2 {
+        font-size: 18px;
+    }
+    .resumeItems h1 {
+        font-size: 20px;
+    }
+    .resumeItems p{
+        width: 400px !important;
+        line-height: normal;
+        
+    }
+
+    .footerItems{
+        flex-direction: column;
+    }
+    .footerItem{
+        width: 100%;
+        padding: 10px;
+    }
+    .mailBox{
+        width: 100%;
+        padding: 20px;
+    }
+    .mailBox form input{
+        width:calc(100%-100px) !important;
+    }
+    .mailBox form textarea {
+        height: auto;
+        width: calc(100% -50px);
+    }
+
+
+
+
+
+
+
+}
